@@ -1,4 +1,3 @@
-/* Add your CSS to this file */
 header{
     background-color: #fff;   /* you can change color later */
     padding: 20px;
@@ -28,7 +27,6 @@ header a {
     font-size: 18px;
 }
 
-
 header a:hover {
     color: #5A67D8;;
 }
@@ -45,6 +43,7 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
 
 /*Overview for Hero */
 .overview-hero {
@@ -64,13 +63,14 @@ body {
     border-radius: 10px;
 }
 
+
 /* Learn About section */
 .learn-about {
     padding: 60px 0;
 }
 
 .learn-about h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
     font-size: 24px;
     color: #48BB78;
@@ -103,6 +103,7 @@ body {
     font-size: 21px;
     color: #48BB78;
 }
+
 
 /* The Testing section */
 .testing {
@@ -137,9 +138,9 @@ body {
 }
 
 .stories h2 {
-    color: #5A67D8; /* main section heading color */
-    /*text-align: left;  optional: center heading */
-    margin-bottom: 30px; /* space below heading */
+    color: #5A67D8;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 .stories article {
@@ -168,6 +169,7 @@ body {
     text-decoration: none; /* remove underline for cleaner look */
 }
 
+
 /* The Newsletter section */
 .newsletter {
     background-color: #48BB78;
@@ -180,21 +182,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* necessary spacing */
+    gap: 10px;
 }
 
 .newsletter input[type="email"] {
     padding: 8px;
     font-size: 16px;
     border: none;
-    border-radius: 5px; /* soft rounding */
+    border-radius: 5px;
     width: 250px;
 }
 
 .newsletter button {
-    padding: 8px 16px;
-    background-color: #5A67D8; /* required button color */
-    color: white; /* ensures text is visible */
+    padding: 4px 8px;
+    background-color: #5A67D8; /*button color */
+    color: white;
     border: none;
     border-radius: 5px;
 }
@@ -208,6 +210,7 @@ section {
 img {
     display: block;
 }
+
 
 /*Footer*/
 footer {
